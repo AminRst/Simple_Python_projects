@@ -1,0 +1,6 @@
+def min_(*args):
+    min1 = float('inf')
+    for digit in args:
+        if digit < min1:
+            min1 = digit
+    return min1

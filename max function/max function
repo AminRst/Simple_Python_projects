@@ -1,0 +1,6 @@
+def max_(*args):
+    max1 = float('inf') * -1
+    for a in args:
+        if a > max1:
+            max1 = a
+    return max1

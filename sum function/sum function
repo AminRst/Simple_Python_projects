@@ -1,0 +1,5 @@
+def sum_(*__iterable):
+    sum1 = 0
+    for digit in __iterable:
+        sum1 += digit
+    return sum1
